@@ -1,1 +1,16 @@
 # Azure_CloudComputing-Major
+- Create a Resource group by Name (VerzeRG01)
+- Create a virtual network (verzvnet01)
+- Create a virtual machine in the portal(VerzVM01)
+- Create blob storage(VerzSTR01)
+- Create a File Share (Verzfs01)and mount on the (VerzVM01)
+- Create a network security group
+- Configure an inbound security port rule to allow RDP
+- Configure an outbound security port rule to deny Internet access
+- Create an Azure Policy to only allow certain locations (Southeast Asia), try to create a resource in any other location and check the policy evaluation.(You can use any other region)
+- Apply a lock on the (VerzeRG01) and test if you are allowed to delete any resource.
+- Setup CPU Threshold alert for the VM (VerzVM01)
+- Create Action(Verzactgrp) Group for the above alert with your email id.
+- Check if you are receiving the alert
+- Create a Recovery Services vault (Vezvault01) in the Resource Group (VerzeRG01)
+- Setup Backup for the Virtual Machine (VerzVM01) and ensure backup is completed successfully.
